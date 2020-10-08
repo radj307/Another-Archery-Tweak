@@ -1,0 +1,53 @@
+
+Another Archery Tweak - Merging Plugins Guide
+
+
+METHOD 1: zEdit (Automatic)
+	DIFFICULTY: 
+		Very Easy
+		
+	REQUIREMENTS:
+		zEdit	( https://github.com/z-edit/zedit/releases )
+		All AAT .esp files active at the bottom of your load order.
+		
+	PROCESS:
+		1.	Open zEdit, select "zMerge" & "Skyrim SE" from the dropdown, then click "Start Session"
+		2.	Click the green "Create Merge" button at the bottom
+		3.	A popup will open with 4 tabs labelled "Details", "Plugins", "Load Order", & "Data"
+		4.	In the Details tab, replace "New Merge" with a mod name of your choice, I recommend "AAT Merged"
+		5.	Replace the Filename with "Another_Archery_Tweak.esp"
+		6.	Select "Clean - Merge down (improved)" from the dropdown.
+		7.	In the Plugins tab, select ALL of the Another_Archery_Tweak plugins.
+		8.	In the Load Order tab, check the "Use game load order" box.
+		9.	(optional) 	In the Data tab, open "General Assets" and check the "Copy General Assets" box.
+						(This will copy the readme files into the merged mod folder)
+		10.	Click "OK" at the bottom of the pop-up window, then find the newly created Merge in the list.
+		11.	Next to your newly created merge name, click the "Build" button, and wait for it to finish.
+		12.	Once done, exit zEdit. (It will automatically save the merge as a new mod folder.)
+		13.	If you use Mod Organizer 2 (HIGHLY recommended) press F5 to refresh your mod list, there will be a new
+			folder at the bottom with the name you gave it in zEdit. Copy the "Meta.ini" file from the original AAT
+			folder into your merged folder, then delete the original mod. You will now use the merge folder to
+			activate/deactivate AAT.
+			If you do NOT use MO2, do the equivalent process for your preferred mod manager.
+		14.	Run LOOT & make sure AAT is loaded after any of the mods you have patches for.
+
+
+METHOD 2: xEdit (Manual)
+	DIFFICULTY:
+		Easy
+		
+	REQUIREMENTS:
+		xEdit	( https://github.com/TES5Edit/TES5Edit/releases )
+		All AAT .esp files active at the bottom of your load order.
+
+	PROCESS:
+		1.	Open xEdit, R+Click anywhere in your plugin load order and click "Select None", then scroll to the
+			bottom and select all the AAT plugins. Click "Ok" and wait for the "Background Loader: Finished" msg.
+		2.	Click the '+' icon to the left of all of the AAT plugins. (Excluding "Another_Archery_Tweak.esp")
+		3.	Shift+Click on the "Projectiles" element for the uppermost AAT plugin, and again on the bottommost plugin.
+		4.	R+Click on any one of the selected "Projectiles" elements, and select "Deep copy as override into..."
+		5.	Select "Another_Archery_Tweak.esp", and wait for it to finish.
+		6.	Close xEdit, and save "Another_Archery_Tweak.esp"
+		7.	If you use Mod Organizer 2 (HIGHLY recommended) double-click on the AAT mod folder, go to the "Optional ESPs" tab.
+			Select all of the plugins in the folder EXCEPT "Another_Archery_Tweak.esp" and move them to the optional folder.
+		8.	Run LOOT & make sure AAT is loaded after any of the mods you have patches for.
