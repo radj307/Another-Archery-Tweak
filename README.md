@@ -16,7 +16,6 @@ All files are flagged as .esl, merge instructions are in the readme.
 Can be added, removed, swapped, or modified at any time!
 
 
-
 # Why use this over other archery mods?
 
 I've used many different archery mods but never felt satisfied with the results.
@@ -32,12 +31,9 @@ A guide on how to modify the physics values is available under "Misc Files"
 (Feel free to make requests for addons, physics tweaks, etc. in the comments!)
 
 
+# Compatibility
 
-## Compatibility
-
-
-    Compatible / No Conflicts:
-    (Patches are included in FOMOD)
+### Compatible / No Conflicts:
     Requiem﻿ (Conversion Guide)﻿
     Archery Gameplay Overhaul﻿
     Beyond Skyrim: Bruma﻿
@@ -51,16 +47,12 @@ A guide on how to modify the physics values is available under "Misc Files"
     All mesh/texture replacers
     (Some model replacers may require patching in xEdit.)
 
-    Semi-Incompatible:
-    ABT - Arrows and Bolts Tweaks SE
-    The .esp file is incompatible, but the meshes are recommended
+### Semi-Incompatible:
+    ABT - Arrows and Bolts Tweaks SE (Only incompatible with the .esp plugin.)
 
-    Incompatible:
+### Incompatible:
     Archery﻿
     Archery Tweaks﻿
-
-
-
 
 
 # Physics Presets
@@ -68,34 +60,45 @@ In order of difficulty
 
 ### No-Gravity
 Completely removes all gravity from projectiles. For people who want a laser rifle.
-Arrows: (Gravity = 0.0, Speed = 6900)
-Bolts: (Gravity = 0.0, Speed = 7300)
+
+    Arrows: (Gravity = 0.0, Speed = 6900)
+    Bolts: (Gravity = 0.0, Speed = 7300)
+
 
 ### Arcade-Style
 Based on the "Modern" version, but with much less gravity. For people who don't like aiming up.
-Arrows: (Gravity = 0.5, Speed = 6900)
-Bolts: (Gravity = 0.5, Speed = 7300)
+    
+    Arrows: (Gravity = 0.5, Speed = 6900)
+    Bolts: (Gravity = 0.5, Speed = 7300)
+
 
 ### Modern
 Based on modern archery equipment. For people who don't like leading targets.
-Arrows: (Gravity = 0.8, Speed = 6900)
-Bolts: (Gravity = 0.8, Speed = 7300)
+
+    Arrows: (Gravity = 0.8, Speed = 6900)
+    Bolts: (Gravity = 0.8, Speed = 7300)
+
 
 ### Realistic-Lite
 Based on "Realistic", but with slightly faster projectiles. This is the new default.
-Arrows: (Gravity = 0.44, Speed = 5000)
-Bolts: (Gravity = 0.44, Speed = 5800)
+
+    Arrows: (Gravity = 0.44, Speed = 5000)
+    Bolts: (Gravity = 0.44, Speed = 5800)
+
 
 ### Realistic
 Based on the performance of actual medieval archery equipment.
-Arrows: (Gravity = 0.4, Speed = 4300)
-Bolts: (Gravity = 0.4, Speed = 4800)
 
-### Requiem
-(Requires Requiem SE)
+    Arrows: (Gravity = 0.4, Speed = 4300)
+    Bolts: (Gravity = 0.4, Speed = 4800)
+
+
+### Requiem (Requires Requiem SE)
 Based on Requiem's modified archery physics, this version's goal is to fix vanilla projectile record bugs while making bows more predictable.
-Arrows: (Gravity = 0.884, Speed = 4300)
-Bolts:(Gravity = 0.84, Speed = 5000)
+
+    Arrows: (Gravity = 0.884, Speed = 4300)
+    Bolts:(Gravity = 0.84, Speed = 5000)
+
 
 
 You can also make your own presets using my mod as a base, there is a tutorial available under Misc Files.
