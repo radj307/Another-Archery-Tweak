@@ -1,3 +1,8 @@
+> ### :warning: Obsolete
+> **Use my new synthesis patcher instead: [Another Archery Patcher](https://github.com/Synthesis-Collective/Another-Archery-Patcher)** &nbsp;(**AAP**)  
+> 
+> The difference between this mod and the AAP synthesis patcher is that the patcher adapts itself to your load order, is configurable, and is far more powerful & flexible; whereas this mod requires manual patches for all conflicts & is only 'configurable' in that it has presets.  
+
 # What this mod does
 
 Modifies projectile's speed, gravity, and impact force to give arrows a more realistic feeling.
